@@ -7,4 +7,19 @@ const name = "John";
 const element2 = <p>Hello, {name}!</p>;
 
 // Example with attributes
-const element = <img src="path/to/image.jpg" alt="Description" />;
+const element0 = <img src="path/to/image.jpg" alt="Description" />;
+
+// JSX element representing a React component
+const element3 = <MyComponent />;
+
+// A simple React component using JSX
+class MyComponent extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello, React!</h1>
+        <p>This is a JSX component.</p>
+      </div>
+    );
+  }
+}
